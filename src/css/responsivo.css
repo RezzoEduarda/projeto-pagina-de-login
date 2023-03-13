@@ -1,0 +1,32 @@
+@media only screen and (max-width: 950px){
+    .caixa-de-login{
+        width: 85%
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .main{
+        flex-direction: column;
+    }
+    .lado-esquerdo > h1{
+        display: none;
+    }
+
+    .lado-esquerdo{
+        width: 100%;
+        height: auto;
+    }
+
+    .lado-direito{
+        width: 100%;
+        height: auto;
+    }
+
+    .lado-esquerdo > img{
+        width: 50vw;
+    }
+
+    .caixa-de-login{
+        width: 90%;
+    }
+}
